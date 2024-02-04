@@ -10,7 +10,7 @@ st.title("CNN Model Upload App")
 uploaded_file = st.file_uploader("Choose an image to be uploaded", type=["jpg", "png"])
 
 # Load pre-trained CNN model
-model_path = "cnn_2.h5"
+model_path = "cnn_update_tuning.h5"
 model = tf.keras.models.load_model(model_path)
 
 # Function to preprocess the image
